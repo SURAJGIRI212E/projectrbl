@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SURAJGIRI212E/projectrbl.git/static/css/main.af7ae381.css",
+    "main.js": "/SURAJGIRI212E/projectrbl.git/static/js/main.54a3f07f.js",
+    "static/js/787.d3befce1.chunk.js": "/SURAJGIRI212E/projectrbl.git/static/js/787.d3befce1.chunk.js",
+    "static/media/clicksound.wav": "/SURAJGIRI212E/projectrbl.git/static/media/clicksound.91940e3f5c0dacec1c6c.wav",
+    "index.html": "/SURAJGIRI212E/projectrbl.git/index.html",
+    "main.af7ae381.css.map": "/SURAJGIRI212E/projectrbl.git/static/css/main.af7ae381.css.map",
+    "main.54a3f07f.js.map": "/SURAJGIRI212E/projectrbl.git/static/js/main.54a3f07f.js.map",
+    "787.d3befce1.chunk.js.map": "/SURAJGIRI212E/projectrbl.git/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af7ae381.css",
+    "static/js/main.54a3f07f.js"
+  ]
+}
