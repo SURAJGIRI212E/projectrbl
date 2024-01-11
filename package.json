@@ -1,8 +1,8 @@
 {
-  "homepage": "https://surajgiri212e.github.io/projectrbl",
+  "homepage": "https://surajgiri212e.github.io/projectrbl/",
   "name": "myapp",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,9 +14,9 @@
   },
  
   "scripts": {
-    "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
