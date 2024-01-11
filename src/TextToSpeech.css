@@ -1,0 +1,48 @@
+/* TextToSpeech.css */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/play-pause.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/play-button-o.css');
+
+.speech-button {
+    background-color: #e7eab3;
+    color: red;
+    width: 413px;
+    height: 380px;
+    position: fixed;
+    top: 37%;
+    left: 1px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+  .gg-play-button-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,8));
+    width: 22px;
+    left: 44%;
+    height: 22px;
+    border-radius: 20px;
+    opacity: 0.5;
+  }
+
+  .gg-play-pause {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,8));
+    width: 9px;
+    height: 10px;
+    left: 45%;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    opacity: 0.5;
+}
+  
+  .speech-button:hover{
+    opacity: 0.8; /* Change the hover opacity as desired */
+  }
+  
