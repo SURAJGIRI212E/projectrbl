@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/projectrbl/static/css/main.af7ae381.css",
-    "main.js": "/projectrbl/static/js/main.4549304f.js",
-    "static/js/787.d3befce1.chunk.js": "/projectrbl/static/js/787.d3befce1.chunk.js",
-    "static/media/clicksound.wav": "/projectrbl/static/media/clicksound.91940e3f5c0dacec1c6c.wav",
-    "index.html": "/projectrbl/index.html",
-    "main.af7ae381.css.map": "/projectrbl/static/css/main.af7ae381.css.map",
-    "main.4549304f.js.map": "/projectrbl/static/js/main.4549304f.js.map",
-    "787.d3befce1.chunk.js.map": "/projectrbl/static/js/787.d3befce1.chunk.js.map"
+    "main.css": "/surajgiri212e.github.io/projectrbl/static/css/main.af7ae381.css",
+    "main.js": "/surajgiri212e.github.io/projectrbl/static/js/main.13ce650c.js",
+    "static/js/787.d3befce1.chunk.js": "/surajgiri212e.github.io/projectrbl/static/js/787.d3befce1.chunk.js",
+    "static/media/clicksound.wav": "/surajgiri212e.github.io/projectrbl/static/media/clicksound.91940e3f5c0dacec1c6c.wav",
+    "index.html": "/surajgiri212e.github.io/projectrbl/index.html",
+    "main.af7ae381.css.map": "/surajgiri212e.github.io/projectrbl/static/css/main.af7ae381.css.map",
+    "main.13ce650c.js.map": "/surajgiri212e.github.io/projectrbl/static/js/main.13ce650c.js.map",
+    "787.d3befce1.chunk.js.map": "/surajgiri212e.github.io/projectrbl/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af7ae381.css",
-    "static/js/main.4549304f.js"
+    "static/js/main.13ce650c.js"
   ]
 }
