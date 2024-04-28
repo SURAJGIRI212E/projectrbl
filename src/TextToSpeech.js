@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from "react";
 
-import sound from "./clicksound.wav"
+import sound from "./popclick.wav"
 import "./TextToSpeech.css";
 const TextToSpeech = ({ text }) => {
+  console.log(text)
   const [isPaused, setIsPaused] = useState(true);
   const [utterance, setUtterance] = useState(null);
 
   useEffect(() => {
     const synth = window.speechSynthesis;
     const u = new SpeechSynthesisUtterance(text);
-  
     setUtterance(u);
-
     return () => {
       synth.cancel();
     };
@@ -20,17 +19,22 @@ const TextToSpeech = ({ text }) => {
   const audio = new Audio(sound);
   
   const togglePauseResume = () => {
+    audio.play();
     const synth = window.speechSynthesis;
 
     if (isPaused) {
+
         synth.resume();
-        utterance.rate = 2;
+        utterance.rate = 1.8;
+        const voices = speechSynthesis.getVoices();
+  utterance.voice = voices[0]; // Choose a specific voice
+
         synth.speak(utterance);
       } 
       else {
         synth.pause();
       }
-      audio.play();
+     
        setIsPaused(!isPaused);
     };
 
