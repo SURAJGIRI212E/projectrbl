@@ -25,7 +25,7 @@ const TextToSpeech = ({ text }) => {
     if (isPaused) {
 
         synth.resume();
-        utterance.rate = 1.8;
+        utterance.rate = 1.3;
         const voices = speechSynthesis.getVoices();
   utterance.voice = voices[2]; // Choose a specific voice
 
